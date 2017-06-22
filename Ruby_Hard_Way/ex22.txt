@@ -1,0 +1,72 @@
+#
+	# - creates a comment
+	$stdin - standard input
+	$stdout - standard output
+	+ - adds two variables
+	- - subtracts two variables
+	* - multiplies two variables
+	/ - divides two variables
+	== - checks if a variable is equal to another
+	+= - shorthand for 'addition argument' (x=x+y becomes x+=y)
+	\n - starts new line
+	_ - used instead of spaces for files, variables, methods, etc.
+	""" - lets you type as much you want
+	, - if used with puts, it's like using it twice
+	<<KEYWORD - starts a multi-string line
+	#{} - calls a variable into a function
+	[] - contains an array
+A
+	arg - argument
+	ARGV - variable that contains arguments to pass into program
+B
+C
+	close - closes file
+	current_file - variable to interact with a file
+	current_line - variable to interact with a file's contents
+D
+	def - tells Ruby we're defining a method
+E
+	end - ends a function
+F
+	f - file as a variable
+G
+	gets - reads files pass as arguments or from standard input($stdin)
+	gets.chomp - reads input and outputs it as part of argument
+H
+	heredoc or "here document" - creates a multi-string line
+I
+	input_file - tells ARGV the variable will be a file
+J
+K
+L
+M
+N
+O
+	open - opens target file
+P
+	p - shorthand for print
+	print - outputs arguments
+	print_a_line - outputs current_line
+	print_all - outputs entire argument
+	print_one - outputs one argument
+	print_none - outputs no arguments
+	print_two - outputs two arguments
+	print_two_again - does print_two again
+	prompt - allows the user to give input
+	puts - like 'print', but puts each argument on a new line
+Q
+R
+	read - reads contents of a file
+	readline - reads one line from a text file
+	return - outputs product of a function
+S
+	seek(0) - moves the read/write location to the beginning of the file
+T
+	truncate - empties file
+U
+V
+W
+	write('stuff') - writes "stuff" to the file
+X
+Y
+Z
