@@ -2,12 +2,12 @@
 	# - creates a comment
 	$stdin - standard input
 	$stdout - standard output
-	+ - adds two variables
-	- - subtracts two variables
-	* - multiplies two variables
-	/ - divides two variables
-	== - checks if a variable is equal to another
-	+= - shorthand for 'addition argument' (x=x+y becomes x+=y)
+	+ - plus
+	- - minus
+	* - multiply
+	/ - divide
+	== - equal
+	+= - plus and equal
 	\n - starts new line
 	_ - used instead of spaces for files, variables, methods, etc.
 	""" - lets you type as much you want
@@ -15,34 +15,61 @@
 	<<KEYWORD - starts a multi-string line
 	#{} - calls a variable into a function
 	[] - contains an array
+	&& - and
+	|| - or
+	! - not
+	!= - not equal
+	>= - greater than
+	<= - less than
 A
+	alias - create another name for a function
+	and - logical and, lower priority than &&
 	arg - argument
 	ARGV - variable that contains arguments to pass into program
 B
+	begin - start a block, usually for exceptions
+	BEGIN - run this block when script starts
+	break - break out of a loop right now
 C
+	case - case style conditional, like an if
+	class - define a new class
 	close - closes file
 	current_file - variable to interact with a file
 	current_line - variable to interact with a file's contents
 D
-	def - tells Ruby we're defining a method
+	def - define a new function
+	defined? - is this class/function/etc. defined?
+	do - create a block that maybe takes a parameter
 E
-	end - ends a function
+	else - else conditional
+	elsif - else if conditional
+	end - ends blocks, functions, classes, everything
+	END - run this block when script is done
+	ensure - run this code whether an exception happens or not
 F
 	f - file as a variable
+	false
+	for - for loop syntax, though ".each" syntax is preferred
 G
 	gets - reads files pass as arguments or from standard input($stdin)
 	gets.chomp - reads input and outputs it as part of argument
 H
 	heredoc or "here document" - creates a multi-string line
 I
+	if - if conditional
+	in - in part of for-loops
 	input_file - tells ARGV the variable will be a file
 J
 K
 L
 M
+	module - define a new module
 N
+	next - skip to the next element of a .each iterator
+	not - logical not, but use ! instead
 O
 	open - opens target file
+	or - logical or
 P
 	p - shorthand for print
 	print - outputs arguments
@@ -58,15 +85,28 @@ Q
 R
 	read - reads contents of a file
 	readline - reads one line from a text file
-	return - outputs product of a function
+	redo - rerun a code block exactly the same
+	rescue - run this code if an exception happens
+	retry - in a resuce clause, says to try the block again
+	return - returns a value form a function (mostly optional)
 S
 	seek(0) - moves the read/write location to the beginning of the file
+	self - the current object, class, or module
+	super - the parent class of this class
 T
+	then - can be used with if optionally
+	true
 	truncate - empties file
 U
+	undef - remove a function definition from a class
+	unless - inverse of if
+	until - inverse of while, execute block as long as false
 V
 W
+	when - part of case conditionals
+	while - while loop
 	write('stuff') - writes "stuff" to the file
 X
 Y
+	yield - pause and transfer control to the code block
 Z
