@@ -12,15 +12,12 @@ class TestKata < Minitest::Test
 		assert_equal(2, mined(2))
 	end
 	def test_3_gives_mined
-		p mined(3)
 		assert_equal('mined', mined(3))
 	end
 	def test_5_gives_minds
-		p mined(5)
 		assert_equal('minds', mined(5))
 	end
 		def test_15_gives_minedminds
-		p mined(15)
 		assert_equal('minedminds', mined(15))
 	end
 end
